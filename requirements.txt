@@ -1,0 +1,64 @@
+# Core Audio & AI
+numpy>=1.23.0
+scipy
+soundfile
+librosa
+audiostretchy
+soxr
+
+# Torch & related (specific versions handled in Dockerfile, but good for ref)
+# torch
+# torchaudio
+
+# Transformers & Hugging Face
+transformers
+accelerate
+huggingface-hub
+safetensors
+tokenizers
+sentencepiece
+
+# Qwen3-TTS specific
+qwen-vl-utils
+
+# F5-TTS specific
+vocos
+vector-quantize-pytorch
+ema-pytorch
+einops
+wandb
+hydra-core
+omegaconf
+
+# ASR
+openai-whisper
+tiktoken
+
+# Web/API
+fastapi
+uvicorn
+python-multipart
+click
+requests
+tqdm
+
+# F5-TTS Dependencies (Moved here for Docker Caching)
+bitsandbytes
+cached_path
+gradio
+matplotlib
+pydub
+pypinyin
+rjieba
+torchcodec
+torchdiffeq
+transformers_stream_generator
+unidecode
+x_transformers
+
+# Qwen3-TTS Dependencies (Moved here for Docker Caching)
+onnxruntime
+sox
+
+# Auxiliary
+jieba
